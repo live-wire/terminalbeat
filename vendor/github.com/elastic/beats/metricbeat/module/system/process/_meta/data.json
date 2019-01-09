@@ -1,0 +1,46 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "agent": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "event": {
+        "dataset": "system.process",
+        "duration": 115000,
+        "module": "system"
+    },
+    "metricset": {
+        "name": "process"
+    },
+    "service": {
+        "type": "system"
+    },
+    "system": {
+        "process": {
+            "cpu": {
+                "start_time": "2018-12-12T08:05:53.748Z",
+                "total": {
+                    "norm": {
+                        "pct": 0
+                    },
+                    "pct": 0,
+                    "value": 60
+                }
+            },
+            "memory": {
+                "rss": {
+                    "bytes": 0,
+                    "pct": 0
+                },
+                "share": 0,
+                "size": 8192
+            },
+            "name": "go",
+            "pgid": 53737,
+            "pid": 53883,
+            "ppid": 53737,
+            "state": "running",
+            "username": "ruflin"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "agent": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "event": {
+        "dataset": "system.cpu",
+        "duration": 115000,
+        "module": "system"
+    },
+    "metricset": {
+        "name": "cpu"
+    },
+    "service": {
+        "type": "system"
+    },
+    "system": {
+        "cpu": {
+            "cores": 8,
+            "idle": {
+                "norm": {
+                    "pct": 0.2085
+                },
+                "pct": 1.6679,
+                "ticks": 138292915
+            },
+            "iowait": {
+                "norm": {
+                    "pct": 0
+                },
+                "pct": 0,
+                "ticks": 0
+            },
+            "irq": {
+                "norm": {
+                    "pct": 0
+                },
+                "pct": 0,
+                "ticks": 0
+            },
+            "nice": {
+                "norm": {
+                    "pct": 0
+                },
+                "pct": 0,
+                "ticks": 0
+            },
+            "softirq": {
+                "norm": {
+                    "pct": 0
+                },
+                "pct": 0,
+                "ticks": 0
+            },
+            "steal": {
+                "norm": {
+                    "pct": 0
+                },
+                "pct": 0,
+                "ticks": 0
+            },
+            "system": {
+                "norm": {
+                    "pct": 0.3283
+                },
+                "pct": 2.6267,
+                "ticks": 16415782
+            },
+            "total": {
+                "norm": {
+                    "pct": 0.7915
+                },
+                "pct": 6.3321
+            },
+            "user": {
+                "norm": {
+                    "pct": 0.4632
+                },
+                "pct": 3.7054,
+                "ticks": 10208630
+            }
+        }
+    }
+}

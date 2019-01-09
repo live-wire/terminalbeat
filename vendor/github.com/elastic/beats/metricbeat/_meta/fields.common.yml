@@ -1,0 +1,27 @@
+- key: common
+  title: Common
+  description: >
+    Contains common fields available in all event types.
+  fields:
+
+    - name: metricset.module
+      description: >
+        The name of the module that generated the event.
+      type: alias
+      path: event.module
+      migration: true
+
+    - name: metricset.name
+      description: >
+        The name of the metricset that generated the event.
+
+    - name: service.address
+      description: >
+        Connection address of the machine from which the metricset was collected. This
+        field may not be present when the data was collected locally.
+
+    - name: type
+      required: true
+      example: metricsets
+      description: >
+        The document type. Always set to "doc".

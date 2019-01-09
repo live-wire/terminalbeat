@@ -1,0 +1,9 @@
+- key: terminalbeat
+  title: terminalbeat
+  description:
+  fields:
+    - name: counter
+      type: long
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION

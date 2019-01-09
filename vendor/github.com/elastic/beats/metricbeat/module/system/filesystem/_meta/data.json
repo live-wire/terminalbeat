@@ -1,0 +1,34 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "agent": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "event": {
+        "dataset": "system.filesystem",
+        "duration": 115000,
+        "module": "system"
+    },
+    "metricset": {
+        "name": "filesystem"
+    },
+    "service": {
+        "type": "system"
+    },
+    "system": {
+        "filesystem": {
+            "available": 0,
+            "device_name": "devfs",
+            "files": 1188,
+            "free": 0,
+            "free_files": 0,
+            "mount_point": "/dev",
+            "total": 351232,
+            "type": "devfs",
+            "used": {
+                "bytes": 351232,
+                "pct": 1
+            }
+        }
+    }
+}

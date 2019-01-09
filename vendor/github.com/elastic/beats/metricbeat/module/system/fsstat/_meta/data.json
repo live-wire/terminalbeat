@@ -1,0 +1,29 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "agent": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "event": {
+        "dataset": "system.fsstat",
+        "duration": 115000,
+        "module": "system"
+    },
+    "metricset": {
+        "name": "fsstat"
+    },
+    "service": {
+        "type": "system"
+    },
+    "system": {
+        "fsstat": {
+            "count": 10,
+            "total_files": 9309815548,
+            "total_size": {
+                "free": 3753574465536,
+                "total": 7896767908864,
+                "used": 4143193443328
+            }
+        }
+    }
+}

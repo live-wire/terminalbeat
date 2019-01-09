@@ -1,0 +1,36 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "agent": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "event": {
+        "dataset": "system.diskio",
+        "duration": 115000,
+        "module": "system"
+    },
+    "metricset": {
+        "name": "diskio"
+    },
+    "service": {
+        "type": "system"
+    },
+    "system": {
+        "diskio": {
+            "io": {
+                "time": 18566027
+            },
+            "name": "disk0",
+            "read": {
+                "bytes": 1107819708416,
+                "count": 23921292,
+                "time": 14179708
+            },
+            "write": {
+                "bytes": 468146114560,
+                "count": 26997360,
+                "time": 4386319
+            }
+        }
+    }
+}

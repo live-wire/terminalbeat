@@ -1,0 +1,5 @@
+= Terminalbeat Docs
+
+Welcome to the Terminalbeat documentation.
+
+

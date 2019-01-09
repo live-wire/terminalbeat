@@ -1,0 +1,27 @@
+
+- key: beat
+  title: Beat
+  description: >
+    Contains common beat fields available in all event types.
+  fields:
+    - name: beat.timezone
+      type: alias
+      migration: true
+      path: event.timezone
+      migration: true
+
+    - name: fields
+      type: object
+      object_type: keyword
+      description: >
+        Contains user configurable fields.
+
+    - name: error
+      type: group
+      description: >
+        Error fields containing additional info in case of errors.
+      fields:
+        - name: type
+          type: keyword
+          description: >
+            Error type.
