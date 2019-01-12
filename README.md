@@ -1,6 +1,9 @@
-# Terminalbeat
+# Terminalbeat :pager:
 
 Welcome to Terminalbeat.
+
+This [beat](https://github.com/elastic/beats) runs a command (specified in the config file `terminalbeat.yml`) and forwards the corresponding [stdout](https://www.computerhope.com/jargon/s/stdout.htm) to Logstash or Elasticsearch.
+
 
 Ensure that this folder is at the following location:
 `${GOPATH}/src/github.com/live-wire/terminalbeat`
