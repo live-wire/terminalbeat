@@ -4,6 +4,8 @@
   fields:
     - name: counter
       type: long
+      msg: message_stdout
+      command: bash sample.sh
       required: true
       description: >
         PLEASE UPDATE DOCUMENTATION
