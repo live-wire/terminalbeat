@@ -1,5 +1,6 @@
 terminalbeat:
   period: 1s
+  command: bash sample.sh
 processors:
 - add_cloud_metadata: ~
 
