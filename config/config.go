@@ -7,8 +7,10 @@ import "time"
 
 type Config struct {
 	Period time.Duration `config:"period"`
+    Command string `config:"command"`
 }
 
 var DefaultConfig = Config{
 	Period: 1 * time.Second,
+    Command: "bash sample.sh",
 }
